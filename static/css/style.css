@@ -1,6 +1,11 @@
+/* OXYGEN MAIN MENU */
+#page-2 {
+    animation: back-color-change 3s infinite;
+}
+/* PRODUCTS_MENU */
 #page-1 {
     font-family: 'Courier New', Courier, monospace;
-    animation: page-1-back-color-change 3s infinite;
+    animation: back-color-change 3s infinite;
 }
 .topic-page-1 {
     text-align: center;
@@ -9,6 +14,46 @@
     padding: 20px 0px;
     border-radius: 50px;
     color: aliceblue;
+}
+
+#table-page-1 table{
+    margin: auto;
+    margin-top: 50px
+}
+#table-page-1 img{
+    width: 200px;
+    border-radius: 50px;
+    margin: 50px 150px;
+    animation: page-1-product-button-color-change 3s infinite;
+}
+#product-name1-page-1 {
+    margin-left: 135px;
+    width: 220px;
+    animation: page-1-topic-button-color-change 3s infinite;
+}
+#product-name2-page-1 {
+    margin-left: 195px;
+    width: 110px;
+    animation: page-1-topic-button-color-change 3s infinite;
+}
+#product-name3-page-1 {
+    margin-left: 185px;
+    width: 140px;
+    animation: page-1-topic-button-color-change 3s infinite;
+}
+#table-page-1 h3 {
+    padding: 10px 5px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+#table-page-1 a {
+    margin-left: 198px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 5px;
+    color: aliceblue;
+    animation: page-1-topic-button-color-change 3s infinite;
 }
 
 @keyframes page-1-topic-button-color-change {
@@ -25,7 +70,21 @@
         background-color: rgb(32, 254, 84);
     }
 }
-@keyframes page-1-back-color-change  {
+@keyframes page-1-products-button-color-change {
+    0% {
+        border: 5px solid yellow;
+        background-color: rgb(32, 254, 84);
+    }
+    50% {
+        border: 5px solid rgb(255, 255, 124);
+        background-color: rgb(109, 255, 143);
+    }
+    100% {
+        border: 5px solid yellow;
+        background-color: rgb(32, 254, 84);
+    }
+}
+@keyframes back-color-change  {
     0% {
         background-color: rgb(160, 250, 241);
     }
@@ -34,5 +93,16 @@
     }
     100% {
         background-color: rgb(160, 250, 241);
+    }
+}
+@keyframes page-1-product-button-color-change {
+    0% {
+        border: 5px solid yellow;
+    }
+    50% {
+        border: 5px solid rgb(255, 255, 124);
+    }
+    100% {
+        border: 5px solid yellow;
     }
 }
