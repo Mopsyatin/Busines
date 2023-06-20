@@ -1,6 +1,52 @@
 /* OXYGEN MAIN MENU */
 #page-2 {
     animation: back-color-change 3s infinite;
+    font-family: 'Courier New', Courier, monospace;
+}
+#main-page-info {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 30px 15px;
+    font-weight: 800;
+    animation: page-1-topic-button-color-change 3s infinite;
+}
+#products-button-text {
+    color: aliceblue;
+    text-decoration: none;
+}
+#products-button {
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px 5px;
+    font-size: 30px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 270px;
+    animation: page-links-button-color-change 3s infinite;
+}
+#complain-button {
+    border-radius: 25px;
+    padding: 10px 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 145px;
+    margin-left: 67%;
+    animation: page-links-button-color-change 3s infinite;
+}
+#table-main-page table{
+    margin: auto;
+}
+#table-main-page img{
+    width: 300px;
+    border-radius: 50px;
+    margin: 20px 50px;
+    margin: auto;
 }
 /* PRODUCTS_MENU */
 #page-1 {
@@ -107,5 +153,19 @@
     }
     100% {
         border: 5px solid yellow;
+    }
+}
+@keyframes page-links-button-color-change {
+    0% {
+        border: 5px double yellow;
+        background-color: rgb(1, 224, 53);
+    }
+    50% {
+        border: 5px double rgb(255, 255, 124);
+        background-color: rgb(32, 254, 84);
+    }
+    100% {
+        border: 5px double yellow;
+        background-color: rgb(1, 224, 53);
     }
 }
