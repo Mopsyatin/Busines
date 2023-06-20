@@ -1,0 +1,38 @@
+#page-1 {
+    font-family: 'Courier New', Courier, monospace;
+    animation: page-1-back-color-change 3s infinite;
+}
+.topic-page-1 {
+    text-align: center;
+    animation: page-1-topic-button-color-change 3s infinite;
+    margin: 50px 40%;
+    padding: 20px 0px;
+    border-radius: 50px;
+    color: aliceblue;
+}
+
+@keyframes page-1-topic-button-color-change {
+    0% {
+        border: 5px solid yellow;
+        background-color: rgb(32, 254, 84);
+    }
+    50% {
+        border: 5px solid rgb(255, 255, 124);
+        background-color: rgb(109, 255, 143);
+    }
+    100% {
+        border: 5px solid yellow;
+        background-color: rgb(32, 254, 84);
+    }
+}
+@keyframes page-1-back-color-change  {
+    0% {
+        background-color: rgb(160, 250, 241);
+    }
+    50% {
+        background-color: rgb(85, 255, 238);
+    }
+    100% {
+        background-color: rgb(160, 250, 241);
+    }
+}
