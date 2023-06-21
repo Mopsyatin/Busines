@@ -14,5 +14,13 @@ def products():
 def alp_fresh():
     return render_template("alpfresh.html")
 
+@app.route("/Pug")
+def pug():
+    return render_template("pug.html")
+
+@app.route("/Meer")
+def meer():
+    return render_template("meer.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

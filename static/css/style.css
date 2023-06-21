@@ -107,9 +107,9 @@
 
 /* PAGE3 */
 #page-3 {
-    animation:back-color-change 3s infinite ;
     font-family: 'Courier New', Courier, monospace;
 }
+/*alp*/
 #alp-fresh {
     border-radius: 100px;
     margin-top: 10%;
@@ -140,6 +140,69 @@
 #alp-fresh-cost {
     font-size: 20px;
 }
+/*pug*/
+#pug-fresh {
+    border-radius: 100px;
+    margin-top: 10%;
+    margin-left: 400px;
+    animation: page-1-product-button-color-change 3s infinite;
+}
+#pug-fresh-table-info table {
+    animation:page-1-topic-button-color-change 3s infinite ;
+    border-radius: 25px;
+    color: aliceblue;
+}
+#pug-fresh-table {
+    margin: auto;
+}
+#pug-fresh-topic {
+    text-align: center;
+    font-size: 25px;
+}
+#pug-fresh-born-place {
+    font-size: 20px;
+}
+#pug-fresh-flavor {
+    font-size: 20px;
+}
+#pug-fresh-use-way  {
+    font-size: 20px;
+}
+#pug-fresh-cost {
+    font-size: 20px;
+}
+/*meer*/
+#meer-fresh {
+    border-radius: 100px;
+    margin-top: 10%;
+    margin-left: 400px;
+    animation: page-1-product-button-color-change 3s infinite;
+}
+#meer-fresh-table-info table {
+    animation:page-1-topic-button-color-change 3s infinite ;
+    border-radius: 25px;
+    color: aliceblue;
+}
+#meer-fresh-table {
+    margin: auto;
+}
+#meer-fresh-topic {
+    text-align: center;
+    font-size: 25px;
+}
+#meer-fresh-born-place {
+    font-size: 20px;
+}
+#meer-fresh-flavor {
+    font-size: 20px;
+}
+#meer--fresh-use-way  {
+    font-size: 20px;
+}
+#meer-fresh-cost {
+    font-size: 20px;
+}
+/*keyframes*/
 @keyframes page-1-topic-button-color-change {
     0% {
         border: 5px solid yellow;
