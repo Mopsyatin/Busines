@@ -105,6 +105,41 @@
     animation: page-1-topic-button-color-change 3s infinite;
 }
 
+/* PAGE3 */
+#page-3 {
+    animation:back-color-change 3s infinite ;
+    font-family: 'Courier New', Courier, monospace;
+}
+#alp-fresh {
+    border-radius: 100px;
+    margin-top: 10%;
+    margin-left: 400px;
+    animation: page-1-product-button-color-change 3s infinite;
+}
+#alp-fresh-table-info table {
+    animation:page-1-topic-button-color-change 3s infinite ;
+    border-radius: 25px;
+    color: aliceblue;
+}
+#alp-fresh-table {
+    margin: auto;
+}
+#alp-fresh-topic {
+    text-align: center;
+    font-size: 25px;
+}
+#alp-fresh-born-place {
+    font-size: 20px;
+}
+#alp-fresh-flavor {
+    font-size: 20px;
+}
+#alp-fresh-use-way  {
+    font-size: 20px;
+}
+#alp-fresh-cost {
+    font-size: 20px;
+}
 @keyframes page-1-topic-button-color-change {
     0% {
         border: 5px solid yellow;
@@ -135,13 +170,13 @@
 }
 @keyframes back-color-change  {
     0% {
-        background-color: rgb(160, 250, 241);
+        background-color: rgb(201, 255, 250);
     }
     50% {
-        background-color: rgb(85, 255, 238);
+        background-color: rgb(160, 250, 241);
     }
     100% {
-        background-color: rgb(160, 250, 241);
+        background-color: rgb(201, 255, 250);
     }
 }
 @keyframes page-1-product-button-color-change {
