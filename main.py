@@ -14,5 +14,17 @@ def products():
 def alp_fresh():
     return render_template("alpfresh.html")
 
+@app.route("/rates")
+def rates():
+    return render_template("rates.html")
+
+@app.route("/Pug's_fart")
+def pugsfart():
+    return render_template("pugsfart.html")
+
+@app.route("/Sea_breaze")
+def seabreaze():
+    return render_template("seabreaze.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
