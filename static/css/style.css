@@ -131,7 +131,6 @@
     border: 5px solid rgb(255, 255, 124);
     background-color: rgb(32, 254, 84);
     border-radius: 35px;
-    color: aliceblue;
 }
 .alp-fresh-table {
     margin: auto;
@@ -161,6 +160,8 @@
     border-radius: 100px;
     border: 5px solid rgb(255, 255, 124);
 }
+
+/*keyframes*/
 .alp-fresh-image {
     margin-left: 200px;
     margin-top: 10%;
