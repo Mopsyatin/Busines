@@ -2,7 +2,7 @@ import random
 from flask import Flask, render_template
 
 app = Flask(__name__)
-airs = ["selfair.html"]
+airs = ["selfair.html","selfair2.html","selfair3.html"]
 @app.route("/Self_air")
 def selfair():
     return render_template(f"{random.choice(airs)}")
