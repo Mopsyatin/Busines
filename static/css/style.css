@@ -1,7 +1,27 @@
+.buy-button{
+    border: 5px solid rgb(255, 255, 124);
+    background-color: rgb(32, 254, 84);
+    text-align: center;
+    font-size: 80px;
+    border-radius: 35px;
+    width: 600px;
+    margin-left: 200px;
+}
+.buy-button a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*hahhahahaha*/
+#page-7 {
+    background-color: rgb(201, 255, 250);
+    font-family: 'Courier New', Courier, monospace;
+}
 /* OXYGEN MAIN MENU */
 #page-2 {
     background-color: rgb(201, 255, 250);
     font-family: 'Courier New', Courier, monospace;
+    
 }
 #main-page-info {
     font-size: 20px;
@@ -109,6 +129,7 @@
     padding: 10px 5px;
     color: aliceblue;
 }
+.buy-button:hover,
 #table-page-1 a:hover,
 #products-button:hover,
 #complain-button:hover,

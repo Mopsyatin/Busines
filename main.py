@@ -1,6 +1,11 @@
+import random
 from flask import Flask, render_template
 
 app = Flask(__name__)
+airs = ["selfair.html"]
+@app.route("/Self_air")
+def selfair():
+    return render_template(f"{random.choice(airs)}")
 
 @app.route("/")
 def index():
@@ -25,6 +30,7 @@ def pugsfart():
 @app.route("/Sea_breaze")
 def seabreaze():
     return render_template("seabreaze.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
