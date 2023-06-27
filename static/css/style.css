@@ -2,7 +2,8 @@
     border: 5px solid rgb(255, 255, 124);
     background-color: rgb(32, 254, 84);
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
+    padding: 20px 5px;
     border-radius: 35px;
     width: 600px;
     margin-left: 200px;
@@ -81,6 +82,19 @@
     margin-top: 30px;
     width: 320px;
 }
+#busket-button-text{
+    text-decoration: none;
+    color: aliceblue;
+}
+#busket-button {
+    border: 5px solid rgb(255, 255, 124);
+    background-color: rgb(32, 254, 84);
+    border-radius: 25px;
+    padding: 10px 5px;
+    font-size: 20px;
+    margin-top: 30px;
+    width: 90px;
+}
 /* OXYGEN MAIN MENU */
 #page-2 {
     background-color: rgb(201, 255, 250);
@@ -132,7 +146,7 @@
     margin: auto;
 }
 #main-page-buttons-table {
-    margin-left: 750px;
+    margin-left: 640px;
 }
 /* PRODUCTS_MENU */
 #page-1 {
@@ -193,7 +207,8 @@
     padding: 10px 5px;
     color: aliceblue;
 }
-.main-bitton-pr:hover,
+#busket-button:hover,
+.main-button-pr:hover,
 .main-button-self:hover,
 .main-button:hover,
 .info-air-for-suggestion:hover,
@@ -205,6 +220,7 @@
 #rates-button:hover {
     animation:page-links-button-color-change 3s infinite ;
 }
+#busket-button,
 .main-button-pr,
 .main-button-self,
 .main-button,

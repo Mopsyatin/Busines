@@ -3,6 +3,13 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 airs = ["selfair.html","selfair2.html","selfair3.html"]
+
+qiymet = 0
+def result():
+    global qiymet
+    qiymet = str(qiymet)
+    return qiymet
+
 @app.route("/Self_air")
 def selfair():
     return render_template(f"{random.choice(airs)}")
@@ -31,6 +38,15 @@ def pugsfart():
 def seabreaze():
     return render_template("seabreaze.html")
 
+@app.route("/Busket")
+def busket():
+    return render_template("busket.html")
+
+@app.route("/Added_Alp_fresh")
+def addedalpfresh():
+    global qiymet
+    qiymet += 15
+    return render_template("addedalpfresh.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
