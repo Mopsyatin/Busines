@@ -193,6 +193,9 @@
     padding: 10px 5px;
     color: aliceblue;
 }
+.main-bitton-pr:hover,
+.main-button-self:hover,
+.main-button:hover,
 .info-air-for-suggestion:hover,
 #self-air-button:hover,
 .buy-button:hover,
@@ -202,12 +205,47 @@
 #rates-button:hover {
     animation:page-links-button-color-change 3s infinite ;
 }
+.main-button-pr,
+.main-button-self,
+.main-button,
 #table-page-1 a,
 #products-button,
 #complain-button,
 #rates-button {
     border: 5px solid rgb(255, 255, 124);
     background-color: rgb(32, 254, 84);
+}
+.main-button {
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 20px 10px;
+    color: aliceblue;
+}
+.main-button-block {
+    margin-top: 150px;
+    margin-left: 825px;
+}
+.main-button-self {
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 5px;
+    color: aliceblue;
+}
+.main-button-self-block {
+    margin: 20px;
+}
+.main-button-pr {
+    font-size: 40px;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 20px 10px;
+    color: aliceblue;
+}
+.main-button-pr-block {
+    margin-top: 30px;
+    margin-left: 825px;
 }
 /* PAGE 3,4,5 */
 .page-3 {
