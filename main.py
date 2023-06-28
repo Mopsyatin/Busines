@@ -38,15 +38,7 @@ def pugsfart():
 def seabreaze():
     return render_template("seabreaze.html")
 
-@app.route("/Busket")
-def busket():
-    return render_template("busket.html")
 
-@app.route("/Added_Alp_fresh")
-def addedalpfresh():
-    global qiymet
-    qiymet += 15
-    return render_template("addedalpfresh.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
