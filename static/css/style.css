@@ -80,7 +80,7 @@
     padding: 10px 5px;
     font-size: 20px;
     margin-top: 30px;
-    width: 320px;
+    width: 330px;
 }
 
 
@@ -123,7 +123,7 @@
     padding: 10px 5px;
     font-size: 20px;
     margin-top: 30px;
-    width: 145px;
+    width: 160px;
 }
 #table-main-page table{
     margin: auto;
@@ -135,7 +135,7 @@
     margin: auto;
 }
 #main-page-buttons-table {
-    margin-left: 640px;
+    margin-left: 710px;
 }
 /* PRODUCTS_MENU */
 #page-1 {
@@ -144,8 +144,9 @@
 }
 .topic-page-1 {
     text-align: center;
-    margin: 40px 20%;
+    margin: 40px -70px;
     padding: 20px 0px;
+    width: 500px;
     color: rgba(0, 0, 0, 0.978);
 }
 
@@ -163,20 +164,20 @@
     border: 5px solid rgb(0, 0, 0);
 }
 #product-name1-page-1 {
-    margin-left: 135px;
-    width: 220px;
+    margin-left: 150px;
+    width: 185px;
     border: 5px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
 #product-name2-page-1 {
-    margin-left: 195px;
-    width: 110px;
+    margin-left: 205px;
+    width: 85px;
     border: 5px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
 }
 #product-name3-page-1 {
     margin-left: 185px;
-    width: 140px;
+    width: 115px;
     border: 5px solid rgb(4, 4, 4);
     background-color: rgb(255, 255, 255);
 }
@@ -193,7 +194,8 @@
     padding: 10px 5px;
     color: rgb(3, 3, 4);
 }
-#busket-button:hover,
+.main-button-cal-block:hover,
+#v-table a:hover,
 .main-button-pr:hover,
 .main-button-self:hover,
 .main-button:hover,
@@ -207,7 +209,20 @@
     color:#f2f9fe;
     background-color: #24334a;
 }
-#busket-button,
+.main-button-cal:hover,
+.main-button-pr-text:hover,
+.main-button-self-text:hover,
+.main-button-text:hover,
+.info-air-for-suggestion-text:hover,
+#self-air-button-text:hover,
+.buy-button-text:hover,
+#table-page-1 a:hover,
+#products-button-text:hover,
+#complain-button-text:hover,
+#rates-button-text:hover {
+    color:#b2b2b2;
+}
+.main-button-cal-block,
 .main-button-pr,
 .main-button-self,
 .main-button,
@@ -249,6 +264,22 @@
 .main-button-pr-block {
     margin-top: 30px;
     margin-left: 825px;
+}
+.main-button-cal-block {
+    font-size: 80px;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 20px 10px;
+    color: rgb(0, 0, 0);
+}
+.main-button-cal {
+    text-decoration: none;
+    color: black;
+}
+.main-button-cal-block {
+    margin-top: 400px;
+    margin-left: 740px;
+    width: 420px;
 }
 /* PAGE 3,4,5 */
 .page-3 {
@@ -367,4 +398,29 @@
 	border-radius: 200px;
 	-webkit-border-radius: 200px;
 	-moz-border-radius: 200px;
+}
+#v {
+    background-color: #87CEEB;
+}
+#v-table {
+    margin: auto;
+    margin-top: 50px;
+}
+#v-table img {
+    width: 250px;
+    border-radius: 30px;
+    border: 5px solid rgb(0, 0, 0);
+}
+#v-table a {
+    margin-left: 50px;
+    padding: 10px 5px;
+    font-size: 40px;
+    text-decoration: none;
+    background-color: #f2f9fe;
+    color: black;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 25px;
+}
+#calculation {
+    background-color: #87CEEB;
 }

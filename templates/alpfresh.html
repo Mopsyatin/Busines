@@ -9,6 +9,7 @@
 </head>
 
 <body class="page-3">
+    {% block content %}
     <div class="main-button-pr-block">
         <a class="main-button-pr" href="/">На главную</a>
     </div>
@@ -52,11 +53,12 @@
             </td>
             <td>
                 <div class="buy-button">
-                    <a target="_blank" href="https://www.paypal.com/donate?token=1ygzG58xJ3qS8_xSWKyTYhrdC5zU_pHPCumsu-q-uhRHzN4sxtbIdtDhBNrq4Pu6vLiVGVUO8VtZn5ov&locale.x=ru_RU">купить</a>
+                    <a href="{{price + '/V'}}">Купить</a>
                 </div>
             </td>
         </tr>
     </table>
+    {% endblock %}
 </body>
 
 </html>

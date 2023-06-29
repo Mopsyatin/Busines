@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body id="page-1">
+    {% block content %}
     <div class = "cloud">
         <h1 class="topic-page-1">Выбор товара</h1>
     </div>
@@ -36,13 +37,13 @@
             </tr>
             <tr>
                 <td>
-                    <a href="Alp_fresh">Подробнее</a>
+                    <a href="/Alp_Fresh/15">Подробнее</a>
                 </td>
                 <td>
-                    <a href="Pug's_fart">Подробнее</a>
+                    <a href="/Pug's_Fart/50">Подробнее</a>
                 </td>
                 <td>
-                    <a href="Sea_breaze">Подробнее</a>
+                    <a href="/Sea_Breaze/30">Подробнее</a>
                 </td>
             </tr>
         </table>
@@ -50,6 +51,7 @@
     <div class="main-button-block">
         <a class="main-button" href="/">На главную</a>
     </div>
+    {% endblock %}
 </body>
 
 </html>
