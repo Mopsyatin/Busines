@@ -21,7 +21,7 @@
               </li>
               <li class="user-info__item">
                   <label for="number-of-card">Номер карточки</label>
-                  <input type="number" name="number" id="number" placeholder="Введите номер вашей карточки" required>
+                  <input type="text" name="number" id="number" placeholder="Введите номер вашей карточки" required>
                   
               </li>
           </ul>
@@ -40,20 +40,17 @@
           </ul>
           <ul class="address-date">
             <li class="user-info__item">
-                <label for="address">Ваш e-mail</label>
+                <label for="email">Ваш e-mail</label>
                 <input type="email" name="email" id="email" placeholder="Укажитое ваш e-mail" required>
             </li>
             <li class="user-info__item">
                 <label for="cvv">Ваш CVV</label>
-                <input type="number" name="cvv" id="cvv" placeholder="Укажитое ваш CVV" required>
+                <input type="text" name="cvv" id="cvv" placeholder="Укажитое ваш CVV" required>
             </li>
          </ul>
       </div>
-      <a class="button" href="Oh_Error">Купить!</a>
+      <a class="button" href="{{url_for('error')}}">Купить!</a>
       </form>
-      <div class="main-button-cal-block">
-        <a class="main-button-cal" href="/">На главную</a>
-      </div>
     {% endblock %}
 </body>
 

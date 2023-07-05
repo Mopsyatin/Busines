@@ -1,5 +1,5 @@
 import random
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 airs = ["selfair.html","selfair2.html","selfair3.html"]
@@ -52,6 +52,10 @@ def seabreazev(price):
 @app.route("/<name>/<shit>/<price>/<v>")
 def v(name,shit,price,v):
     return render_template("total.html", result=cost(int(price), float(v), name=0, shit=0))
+
+@app.route("/Oh_Error")
+def error():
+    return render_template("tryonemoretime.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
