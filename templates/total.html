@@ -12,7 +12,7 @@
     <div class = "cloud">
         <h1 class="topic-page-1">Цена: {{result}}$</h1>
     </div>
-    <form method="post" class="form">
+    <form action="{{ url_for('error') }}" method="post" class="form">
         <div class="user">
           <ul class="user-info">
               <li class="user-info__item">
@@ -30,7 +30,7 @@
               <li class="user-info__item">
   
                   <label for="address">Ваш адрес</label>
-                  <input type="text" name="address" id="address" placeholder="Укадите ваш адрес" required>
+                  <input type="text" name="address" id="address" placeholder="Укажите ваш адрес" required>
               </li>
               <li class="user-info__item">
   
@@ -49,9 +49,10 @@
             </li>
          </ul>
       </div>
-      <a class="button" href="{{url_for('error')}}">Купить!</a>
+      <button class="button" type="submit" ">Готово!</button>
       </form>
     {% endblock %}
+
 </body>
 
 </html>
