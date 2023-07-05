@@ -194,6 +194,7 @@
     padding: 10px 5px;
     color: rgb(3, 3, 4);
 }
+.button:hover,
 .main-button-cal-block:hover,
 #v-table a:hover,
 .main-button-pr:hover,
@@ -209,6 +210,7 @@
     color:#f2f9fe;
     background-color: #24334a;
 }
+.button:hover,
 .main-button-cal:hover,
 .main-button-pr-text:hover,
 .main-button-self-text:hover,
@@ -222,6 +224,7 @@
 #rates-button-text:hover {
     color:#b2b2b2;
 }
+.button,
 .main-button-cal-block,
 .main-button-pr,
 .main-button-self,
@@ -277,7 +280,7 @@
     color: black;
 }
 .main-button-cal-block {
-    margin-top: 400px;
+    margin-top: 100px;
     margin-left: 740px;
     width: 420px;
 }
@@ -491,11 +494,14 @@ label {
     width: 10%;
     padding: 10px;
     min-width: 300px;
+    text-align: center;
+    text-decoration: none;
     cursor: pointer;
     align-self: center;
     border: none;
     border-radius: 10px;
-    background: #0EB07C;
+    background: #ffffff;
     font: inherit;
-    color: #fff;
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
 }

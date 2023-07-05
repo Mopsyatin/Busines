@@ -12,10 +12,7 @@
     <div class = "cloud">
         <h1 class="topic-page-1">Цена: {{result}}$</h1>
     </div>
-    <div class="main-button-cal-block">
-        <a class="main-button-cal" href="/">На главную</a>
-    </div>
-    <form action="{{ url_for('submit_form') }}" method="post" class="form">
+    <form method="post" class="form">
         <div class="user">
           <ul class="user-info">
               <li class="user-info__item">
@@ -52,8 +49,11 @@
             </li>
          </ul>
       </div>
-      <button class="button" type="submit">Готово!</button>
+      <a class="button" href="Oh_Error">Купить!</a>
       </form>
+      <div class="main-button-cal-block">
+        <a class="main-button-cal" href="/">На главную</a>
+      </div>
     {% endblock %}
 </body>
 
